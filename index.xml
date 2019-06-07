@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About applied Machine Learning</title>
+    <link>https://anamf.github.io/</link>
+    <description>Recent content on About applied Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2019, Jeremiah Succeed; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 07 Jun 2019 10:27:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://anamf.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to create a host your own blog for free</title>
+      <link>https://anamf.github.io/post/free-blog-post/</link>
+      <pubDate>Fri, 07 Jun 2019 10:27:00 +0200</pubDate>
+      
+      <guid>https://anamf.github.io/post/free-blog-post/</guid>
+      <description>How did I created my blog hosted for free and without ads.
+I have used:
+ Firebase to host my static website for free.
+ Hugo to create my website.
+  Detailed steps:
+ Create a domain for a static database on firebase.google.com. https://firebase.google.com/docs/hosting
+sudo npm install -g firebase-tools cd about-ml-website/ firebase login firebase init firebase serve firebase deploy  Create a website for your blog with Hugo: https://github.com/gohugoio/hugo/releases</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://anamf.github.io/about/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://anamf.github.io/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
